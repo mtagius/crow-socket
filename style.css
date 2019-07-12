@@ -1,0 +1,13 @@
+#crowImage {
+    position: absolute; 
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #00c1b2;
+}
