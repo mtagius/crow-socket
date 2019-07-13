@@ -9,5 +9,18 @@
 }
 
 body {
-    background-color: #00c1b2;
+    background: radial-gradient(#00c1b2 70%, #029a94);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1500px) {
+    body {
+        background: radial-gradient(#00c1b2 80%, #029a94);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background: radial-gradient(#00c1b2, #00c1b2);
+    }
 }
