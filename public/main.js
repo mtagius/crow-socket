@@ -7,7 +7,7 @@ function crow() {
 $(document).ready(function() {
     var socket = io();
 
-    $("body").click(function() {
+    $("body").on('click touchstart', function() {
         socket.emit('crow');
     });
 
